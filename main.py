@@ -6,15 +6,15 @@ screen = turtle.getscreen()
 screen.setup(width=500, height=350)
 
 words = ["apercevoir",
-            "ascensseur",
-            "aspirateur",
-            "bijouterie",
-            "brouillard",
-            "capitaines",
-            "celebrites",
-            "definition",
-            "economiser",
-            "entraineur"]
+         "ascensseur",
+         "aspirateur",
+         "bijouterie",
+         "brouillard",
+         "capitaines",
+         "celebrites",
+         "definition",
+         "economiser",
+         "entraineur"]
 
 words = [i.upper() for i in words]
 word = random.choice(words)
@@ -67,9 +67,4 @@ while run:
     if len(letter) != 1:
         continue
 
-
-
-
 turtle.mainloop()
-
-
